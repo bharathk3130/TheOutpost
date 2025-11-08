@@ -1,0 +1,47 @@
+{
+    "FortniteAgent": {
+        "checkpoints": [
+            {
+                "steps": 499977,
+                "file_path": "results\\stage1_09\\FortniteAgent\\FortniteAgent-499977.onnx",
+                "reward": 3.1977021983175566,
+                "creation_time": 1760784711.3642986,
+                "auxillary_file_paths": [
+                    "results\\stage1_09\\FortniteAgent\\FortniteAgent-499977.pt"
+                ]
+            },
+            {
+                "steps": 698629,
+                "file_path": "results\\stage1_09\\FortniteAgent\\FortniteAgent-698629.onnx",
+                "reward": null,
+                "creation_time": 1760785037.938045,
+                "auxillary_file_paths": [
+                    "results\\stage1_09\\FortniteAgent\\FortniteAgent-698629.pt"
+                ]
+            },
+            {
+                "steps": 718359,
+                "file_path": "results\\stage2_01\\FortniteAgent\\FortniteAgent-718359.onnx",
+                "reward": 3.2346125881570256,
+                "creation_time": 1760814601.836033,
+                "auxillary_file_paths": [
+                    "results\\stage2_01\\FortniteAgent\\FortniteAgent-718359.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 718359,
+            "file_path": "results\\stage2_01\\FortniteAgent.onnx",
+            "reward": 3.2346125881570256,
+            "creation_time": 1760814601.836033,
+            "auxillary_file_paths": [
+                "results\\stage2_01\\FortniteAgent\\FortniteAgent-718359.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

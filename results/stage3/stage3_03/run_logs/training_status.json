@@ -1,0 +1,65 @@
+{
+    "FortniteAgent": {
+        "checkpoints": [
+            {
+                "steps": 6499940,
+                "file_path": "results\\stage3/stage3_03\\FortniteAgent\\FortniteAgent-6499940.onnx",
+                "reward": 3.4698116975567013,
+                "creation_time": 1762095564.6256247,
+                "auxillary_file_paths": [
+                    "results\\stage3/stage3_03\\FortniteAgent\\FortniteAgent-6499940.pt"
+                ]
+            },
+            {
+                "steps": 6999941,
+                "file_path": "results\\stage3/stage3_03\\FortniteAgent\\FortniteAgent-6999941.onnx",
+                "reward": 3.503438258268447,
+                "creation_time": 1762096102.8044631,
+                "auxillary_file_paths": [
+                    "results\\stage3/stage3_03\\FortniteAgent\\FortniteAgent-6999941.pt"
+                ]
+            },
+            {
+                "steps": 7499995,
+                "file_path": "results\\stage3/stage3_03\\FortniteAgent\\FortniteAgent-7499995.onnx",
+                "reward": 3.4758351327173984,
+                "creation_time": 1762096739.0378253,
+                "auxillary_file_paths": [
+                    "results\\stage3/stage3_03\\FortniteAgent\\FortniteAgent-7499995.pt"
+                ]
+            },
+            {
+                "steps": 7999954,
+                "file_path": "results\\stage3/stage3_03\\FortniteAgent\\FortniteAgent-7999954.onnx",
+                "reward": 3.4610839404797713,
+                "creation_time": 1762097349.6922765,
+                "auxillary_file_paths": [
+                    "results\\stage3/stage3_03\\FortniteAgent\\FortniteAgent-7999954.pt"
+                ]
+            },
+            {
+                "steps": 8481153,
+                "file_path": "results\\stage3/stage3_03\\FortniteAgent\\FortniteAgent-8481153.onnx",
+                "reward": 3.481412553563429,
+                "creation_time": 1762097851.1237276,
+                "auxillary_file_paths": [
+                    "results\\stage3/stage3_03\\FortniteAgent\\FortniteAgent-8481153.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8481153,
+            "file_path": "results\\stage3/stage3_03\\FortniteAgent.onnx",
+            "reward": 3.481412553563429,
+            "creation_time": 1762097851.1237276,
+            "auxillary_file_paths": [
+                "results\\stage3/stage3_03\\FortniteAgent\\FortniteAgent-8481153.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.2.2+cu121"
+    }
+}

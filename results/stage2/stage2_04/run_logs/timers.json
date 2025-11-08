@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1760997902",
+        "python_version": "3.10.11 | packaged by Anaconda, Inc. | (main, May 16 2023, 00:55:32) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\bhara\\miniforge3\\envs\\mlagents\\Scripts\\mlagents-learn config/Stage2_ShootAim.yaml --run-id=Stage2/stage2_04 --env=Builds/Training/Stage1_Shooting/FortniteML2.exe --no-graphics --resume",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.2.2+cu121",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1760997908"
+    },
+    "total": 6.086547399987467,
+    "count": 1,
+    "self": 0.3775675999931991,
+    "children": {
+        "run_training.setup": {
+            "total": 0.12080809997860342,
+            "count": 1,
+            "self": 0.12080809997860342
+        },
+        "TrainerController.start_learning": {
+            "total": 5.588171700015664,
+            "count": 1,
+            "self": 0.00082230000407435,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 5.581528500013519,
+                    "count": 1,
+                    "self": 5.581528500013519
+                },
+                "trainer_threads": {
+                    "total": 9.00006853044033e-07,
+                    "count": 1,
+                    "self": 9.00006853044033e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 0.005819999991217628,
+                    "count": 1,
+                    "self": 0.00035099999513477087,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.005468999996082857,
+                            "count": 1,
+                            "self": 0.005468999996082857
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
