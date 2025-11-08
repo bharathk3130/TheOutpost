@@ -1,6 +1,11 @@
 # The Outpost
 A third-person shooter where the player must reach and transmit a signal while surviving against waves of AI enemies trained with reinforcement learning. The agent learns to patrol, aim, and attack intelligently using Unity ML-Agents, adapting its behavior through rewards. The player’s goal is to stay alive long enough to send the transmission while the enemies relentlessly try to stop them.
 
+The agents were trained across 3 stages using Curriculum Learning. The stages are:
+- Stage 1: Shooting
+- Stage 2: Shooting + Aiming
+- Stage 3: Shooting + Aiming + Movement
+
 ---
 
 ## 🎮 How to Play
@@ -27,9 +32,9 @@ A third-person shooter where the player must reach and transmit a signal while s
 Follow the official Unity ML-Agents setup guide:  
 👉 [Unity ML-Agents Installation Guide](https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Installation.md)
 
-Once Python and ML-Agents are installed:
+Once Python and ML-Agents are installed, open the project in Unity, open **Unity Package Manager**  and download **ML-Agents**
 
-- Open **Unity Package Manager** → Download **ML-Agents**  
+### 2. Start training
 - Open a **Miniforge Prompt** and navigate to your project folder  
 - Run:
   ```bash
@@ -42,8 +47,3 @@ This command:
 - Uses stage 3's configuration to train it
 
 Modify the flags as per your requirement
-
-Training Stages:
-Stage 1: Shooting only
-Stage 2: Shooting + Rotation
-Stage 3: Shooting + Rotation + Movement
