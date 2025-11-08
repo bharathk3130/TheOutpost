@@ -1,4 +1,4 @@
-# TheOutpost
+# The Outpost
 A third-person shooter where the player must reach and transmit a signal while surviving against waves of AI enemies trained with reinforcement learning. The agent learns to patrol, aim, and attack intelligently using Unity ML-Agents, adapting its behavior through rewards. The player’s goal is to stay alive long enough to send the transmission while the enemies relentlessly try to stop them.
 
 ---
